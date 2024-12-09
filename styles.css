@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+h1{
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-color: rgb(38, 37, 37);
+  color: white;
+  box-shadow: 0 0 10px rgba(159, 31, 31, 0.1);
+}
+
+header {
+  background-color: #0a0b15;
+  border-radius: 0px 0px 20px 20px;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: 5px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+nav a:hover {
+  background-color: rgb(49, 103, 4);
+}
+
+main {
+  padding: 20px;
+}
+
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.article-preview {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.article-preview h3 a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 40%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.button {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.button button {
+  width: 20%;
+  padding: 10px;
+  background-color: #0a0b15;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button button:hover {
+  background-color: rgb(49, 103, 4);
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #0a0b15;
+  color: white;
+  border-radius: 20px 20px 0px 0px;
+}

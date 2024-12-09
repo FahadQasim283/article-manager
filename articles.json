@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Global Terrorism",
+        "author": "Fahad",
+        "content": "Global terrorism is a serious threat that can be measured using a number of indicators, including: \r\nGlobal Terrorism Index (GTI)\r\nAn annual report from the Institute of Economics & Peace (IEP) that ranks countries based on their terrorist activity. The GTI considers the number of terrorist incidents, fatalities, injuries, and hostages, as well as conflict and socioeconomic data. \r\nGlobal Terrorism Database (GTD)\r\nA database from START.umd.edu that provides information on terrorist attacks. \r\nWorld Values Survey (WVS)\r\nA survey of tens of thousands of people in countries around the world that measures concerns about terrorism",
+        "date": "2024-12-01 17:27:11"
+    },
+    {
+        "title": "What is the purpose of the \"htmlspecialchars\" function in PHP?",
+        "author": "EITC",
+        "content": "The \"htmlspecialchars\" function in PHP serves a important purpose in the realm of web development, specifically in the context of preventing Cross-Site Scripting (XSS) attacks. XSS attacks occur when an attacker injects malicious code into a website, which is then executed by unsuspecting users. This can lead to various security vulnerabilities, such as stealing sensitive information or manipulating the website's content. To mitigate this risk, developers employ various security measures, one of which is the use of the \"htmlspecialchars\" function.\r\n\r\nThe primary purpose of the \"htmlspecialchars\" function is to convert special characters into their respective HTML entities. HTML entities are special sequences of characters that represent reserved characters in HTML. By converting these characters, the function ensures that they are displayed as literal characters rather than interpreted as HTML tags or code. This prevents the browser from executing any injected malicious code, effectively neutralizing XSS attacks.",
+        "date": "2024-12-04 20:52:44"
+    }
+]
